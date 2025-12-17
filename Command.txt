@@ -1,0 +1,2 @@
+cd .\decoder_bench\
+python generator.py --code=surface --basis=z --noise=code_capacity -d 3 -p 0.001 --records=10000
