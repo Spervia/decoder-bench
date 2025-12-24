@@ -173,7 +173,9 @@ class DatasetGen(CompressedBinaryArrayStore):
                     pass
                 pass
 
-
+            # if len(syndromes) == 0:
+            #     iterations += 1
+            #     continue
 
             if iterations == 0:
                 with h5py.File(f'{self.name}.h5', 'w') as file:
